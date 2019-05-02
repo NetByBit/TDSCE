@@ -31,7 +31,7 @@ class RegisterController extends Controller
      *
      * @var string
      */
-    protected $redirectTo = '/home';
+    protected $redirectTo = '/projects';
 
     /**
      * Create a new controller instance.
@@ -68,16 +68,14 @@ class RegisterController extends Controller
      */
     protected function create(array $data)
     {
-        return DB::transaction(function () use ($data) {
-            $user = User::create([
+            return User::create([
                 'name' => $data['name'],
                 'email' => $data['email'],
+                'type' => $data['type'],
                 'password' => Hash::make($data['password']),
             ]);
-            
-            dd($data);
+
             throw new Exception("No Error Processing Request", 1);
 
-        });
     }
 }
