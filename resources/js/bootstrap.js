@@ -12,6 +12,7 @@ try {
     window.$ = window.jQuery = require('jquery');
 
     require('bootstrap');
+    require('mdbootstrap/js/mdb')
 } catch (e) {}
 
 /**
