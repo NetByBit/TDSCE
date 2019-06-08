@@ -89,7 +89,7 @@ background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/s
         </div>
         <script>
             var typed = new Typed('#main-title', {
-                strings: ["", "TDSCE", "a slogan"],
+                strings: ["", "TDSCE", "Testing made easy"],
                 typeSpeed: 60,
                 loop: true
             });
