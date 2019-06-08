@@ -39,6 +39,14 @@
                         <p>No comments to show</p>
                     @endforelse
                 </div>
+                @auth
+                    <div class="col-md-6">
+                        <div class="md-form">
+                            <textarea id="form7" class="md-textarea form-control" rows="3"></textarea>
+                            <label for="form7">Write a comment</label>
+                        </div>
+                    </div>
+                @endauth
             </div>
         </div>
     </section>

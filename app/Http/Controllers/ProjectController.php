@@ -9,6 +9,7 @@ class ProjectController extends Controller
 {
     /**
      * Display a listing of the resource.
+     * /projects
      */
     public function index()
     {
@@ -31,7 +32,7 @@ class ProjectController extends Controller
      */
     public function store(Request $request)
     {
-        // $this->authorize('create', Project::class);
+        $this->authorize('create', Project::class);
         $validatedData = $request->validate([
             'name' => 'required|max:50',
             'image' => 'nullable|url',
@@ -45,6 +46,7 @@ class ProjectController extends Controller
 
     /**
      * Display the specified resource.
+     * /projects/1
      */
     public function show(Project $project)
     {
