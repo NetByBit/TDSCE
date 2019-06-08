@@ -6467,9 +6467,6 @@ table.table a.btn.btn-black {
     .navbar.navbar-light form .md-form .form-control::-ms-input-placeholder {
       color: #000;
       font-weight: 300; }
-    .navbar.navbar-light form .md-form .form-control::-moz-placeholder {
-      color: #000;
-      font-weight: 300; }
     .navbar.navbar-light form .md-form .form-control:-ms-input-placeholder {
       color: #000;
       font-weight: 300; }
@@ -6508,9 +6505,6 @@ table.table a.btn.btn-black {
       color: #fff;
       font-weight: 300; }
     .navbar.navbar-dark form .md-form .form-control::-ms-input-placeholder {
-      color: #fff;
-      font-weight: 300; }
-    .navbar.navbar-dark form .md-form .form-control::-moz-placeholder {
       color: #fff;
       font-weight: 300; }
     .navbar.navbar-dark form .md-form .form-control:-ms-input-placeholder {
@@ -12214,8 +12208,6 @@ span[data-jarallax-element] {
         color: #555 !important; }
       .side-nav.side-nav-light .search-form input[type=text]::-ms-input-placeholder {
         color: #555 !important; }
-      .side-nav.side-nav-light .search-form input[type=text]::-moz-placeholder {
-        color: #555 !important; }
       .side-nav.side-nav-light .search-form input[type=text]:-ms-input-placeholder {
         color: #555 !important; }
       .side-nav.side-nav-light .search-form input[type=text]::placeholder {
@@ -12397,8 +12389,6 @@ span[data-jarallax-element] {
       .side-nav .search-form input[type=text]::-webkit-input-placeholder {
         color: #fff; }
       .side-nav .search-form input[type=text]::-ms-input-placeholder {
-        color: #fff; }
-      .side-nav .search-form input[type=text]::-moz-placeholder {
         color: #fff; }
       .side-nav .search-form input[type=text]:-ms-input-placeholder {
         color: #fff; }
@@ -13455,8 +13445,6 @@ button.md-toast-close-button {
       color: #fff; }
     .test-skin .navbar form .md-form .form-control::-ms-input-placeholder {
       color: #fff; }
-    .test-skin .navbar form .md-form .form-control::-moz-placeholder {
-      color: #fff; }
     .test-skin .navbar form .md-form .form-control:-ms-input-placeholder {
       color: #fff; }
     .test-skin .navbar form .md-form .form-control::placeholder {
@@ -13806,8 +13794,6 @@ button.md-toast-close-button {
       color: #424242; }
     .white-skin .navbar form .md-form .form-control::-ms-input-placeholder {
       color: #424242; }
-    .white-skin .navbar form .md-form .form-control::-moz-placeholder {
-      color: #424242; }
     .white-skin .navbar form .md-form .form-control:-ms-input-placeholder {
       color: #424242; }
     .white-skin .navbar form .md-form .form-control::placeholder {
@@ -13817,8 +13803,6 @@ button.md-toast-close-button {
     .white-skin .navbar.navbar-dark form .md-form .form-control::-webkit-input-placeholder {
       color: #fff; }
     .white-skin .navbar.navbar-dark form .md-form .form-control::-ms-input-placeholder {
-      color: #fff; }
-    .white-skin .navbar.navbar-dark form .md-form .form-control::-moz-placeholder {
       color: #fff; }
     .white-skin .navbar.navbar-dark form .md-form .form-control:-ms-input-placeholder {
       color: #fff; }
@@ -13851,8 +13835,6 @@ button.md-toast-close-button {
     .white-skin .side-nav .search-form .md-form input::-webkit-input-placeholder {
       color: rgba(66, 66, 66, 0.5) !important; }
     .white-skin .side-nav .search-form .md-form input::-ms-input-placeholder {
-      color: rgba(66, 66, 66, 0.5) !important; }
-    .white-skin .side-nav .search-form .md-form input::-moz-placeholder {
       color: rgba(66, 66, 66, 0.5) !important; }
     .white-skin .side-nav .search-form .md-form input:-ms-input-placeholder {
       color: rgba(66, 66, 66, 0.5) !important; }
@@ -14186,8 +14168,6 @@ button.md-toast-close-button {
     .black-skin .navbar form .md-form .form-control::-webkit-input-placeholder {
       color: #fff; }
     .black-skin .navbar form .md-form .form-control::-ms-input-placeholder {
-      color: #fff; }
-    .black-skin .navbar form .md-form .form-control::-moz-placeholder {
       color: #fff; }
     .black-skin .navbar form .md-form .form-control:-ms-input-placeholder {
       color: #fff; }
@@ -14536,8 +14516,6 @@ button.md-toast-close-button {
       color: #fff; }
     .cyan-skin .navbar form .md-form .form-control::-ms-input-placeholder {
       color: #fff; }
-    .cyan-skin .navbar form .md-form .form-control::-moz-placeholder {
-      color: #fff; }
     .cyan-skin .navbar form .md-form .form-control:-ms-input-placeholder {
       color: #fff; }
     .cyan-skin .navbar form .md-form .form-control::placeholder {
@@ -14884,8 +14862,6 @@ button.md-toast-close-button {
     .mdb-skin .navbar form .md-form .form-control::-webkit-input-placeholder {
       color: #fff; }
     .mdb-skin .navbar form .md-form .form-control::-ms-input-placeholder {
-      color: #fff; }
-    .mdb-skin .navbar form .md-form .form-control::-moz-placeholder {
       color: #fff; }
     .mdb-skin .navbar form .md-form .form-control:-ms-input-placeholder {
       color: #fff; }
@@ -15234,8 +15210,6 @@ button.md-toast-close-button {
       color: #fff; }
     .deep-purple-skin .navbar form .md-form .form-control::-ms-input-placeholder {
       color: #fff; }
-    .deep-purple-skin .navbar form .md-form .form-control::-moz-placeholder {
-      color: #fff; }
     .deep-purple-skin .navbar form .md-form .form-control:-ms-input-placeholder {
       color: #fff; }
     .deep-purple-skin .navbar form .md-form .form-control::placeholder {
@@ -15582,8 +15556,6 @@ button.md-toast-close-button {
     .navy-blue-skin .navbar form .md-form .form-control::-webkit-input-placeholder {
       color: #fff; }
     .navy-blue-skin .navbar form .md-form .form-control::-ms-input-placeholder {
-      color: #fff; }
-    .navy-blue-skin .navbar form .md-form .form-control::-moz-placeholder {
       color: #fff; }
     .navy-blue-skin .navbar form .md-form .form-control:-ms-input-placeholder {
       color: #fff; }
@@ -15932,8 +15904,6 @@ button.md-toast-close-button {
       color: #fff; }
     .pink-skin .navbar form .md-form .form-control::-ms-input-placeholder {
       color: #fff; }
-    .pink-skin .navbar form .md-form .form-control::-moz-placeholder {
-      color: #fff; }
     .pink-skin .navbar form .md-form .form-control:-ms-input-placeholder {
       color: #fff; }
     .pink-skin .navbar form .md-form .form-control::placeholder {
@@ -16280,8 +16250,6 @@ button.md-toast-close-button {
     .indigo-skin .navbar form .md-form .form-control::-webkit-input-placeholder {
       color: #fff; }
     .indigo-skin .navbar form .md-form .form-control::-ms-input-placeholder {
-      color: #fff; }
-    .indigo-skin .navbar form .md-form .form-control::-moz-placeholder {
       color: #fff; }
     .indigo-skin .navbar form .md-form .form-control:-ms-input-placeholder {
       color: #fff; }
@@ -16630,8 +16598,6 @@ button.md-toast-close-button {
       color: #fff; }
     .light-blue-skin .navbar form .md-form .form-control::-ms-input-placeholder {
       color: #fff; }
-    .light-blue-skin .navbar form .md-form .form-control::-moz-placeholder {
-      color: #fff; }
     .light-blue-skin .navbar form .md-form .form-control:-ms-input-placeholder {
       color: #fff; }
     .light-blue-skin .navbar form .md-form .form-control::placeholder {
@@ -16978,8 +16944,6 @@ button.md-toast-close-button {
     .grey-skin .navbar form .md-form .form-control::-webkit-input-placeholder {
       color: #fff; }
     .grey-skin .navbar form .md-form .form-control::-ms-input-placeholder {
-      color: #fff; }
-    .grey-skin .navbar form .md-form .form-control::-moz-placeholder {
       color: #fff; }
     .grey-skin .navbar form .md-form .form-control:-ms-input-placeholder {
       color: #fff; }
@@ -20359,11 +20323,6 @@ pre code {
   opacity: 1;
 }
 
-.form-control::-moz-placeholder {
-  color: #6c757d;
-  opacity: 1;
-}
-
 .form-control:-ms-input-placeholder {
   color: #6c757d;
   opacity: 1;
@@ -23300,10 +23259,8 @@ input[type=button].btn-block {
 @media (min-width: 576px) {
   .card-columns {
     -webkit-column-count: 3;
-       -moz-column-count: 3;
             column-count: 3;
     -webkit-column-gap: 1.25rem;
-       -moz-column-gap: 1.25rem;
             column-gap: 1.25rem;
     orphans: 1;
     widows: 1;
@@ -29015,5 +28972,9 @@ a.text-dark:focus {
     color: inherit;
     border-color: #dee2e6;
   }
+}
+
+.navbar .btn-link {
+  color: #fff !important;
 }
 
