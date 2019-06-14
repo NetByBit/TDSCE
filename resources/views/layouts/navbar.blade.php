@@ -21,20 +21,26 @@
                 </li>
                 <li class="nav-item dropdown">
                         <div class="btn-group">
-                            <a href="/testing" class="btn btn-link nav-link">Testing</a>
+                            <a href="/testings" class="btn btn-link nav-link">Testing</a>
                             <a href="#" class="btn btn-link nav-link dropdown-toggle dropdown-toggle-split" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                 <span class="sr-only">Toggle Dropdown</span>
                             </a>
                             <div class="dropdown-menu">
-                                    <a class="dropdown-item" href="/testing/unit">
-                                        Unit testing
+                                    <a class="dropdown-item" href="/testings/functionality">
+                                        Functionality Testing
                                     </a>
 
-                                    <a class="dropdown-item" href="/testing/e2e">
-                                        End-to-End testing
+                                    <a class="dropdown-item" href="/testings/usability">
+                                        Usability testing
                                     </a>
-                                    <a class="dropdown-item" href="/testing/e2e">
-                                        Feature testing
+                                    <a class="dropdown-item" href="/testings/database">
+                                        Database Testing
+                                    </a>
+                                    <a class="dropdown-item" href="/testings/compatibility">
+                                        Compatibility testing
+                                    </a>
+                                    <a class="dropdown-item" href="/testings/performance">
+                                        Performance Testing
                                     </a>
                             </div>
                         </div>

@@ -35,4 +35,19 @@ class User extends Authenticatable
     {
         return $this->hasMany(Project::class);
     }
+
+    public function ideas()
+    {
+        return $this->hasMany(Idea::class);
+    }
+
+    public function testings()
+    {
+        return $this->hasMany(Idea::class);
+    }
+
+    public function getImageAttribute()
+    {
+        return 'https://robohash.org/' .  $this->email .'?gravatar=yes';
+    }
 }

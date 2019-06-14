@@ -18,4 +18,9 @@ Route::get('/', function () {
 Auth::routes();
 
 Route::resource('projects', 'ProjectController');
+Route::resource('ideas', 'IdeaController');
+Route::resource('testings', 'TestingController');
 
+Route::post('projects/{project}', 'CommentController@project');
+Route::post('ideas/{idea}', 'CommentController@idea');
+Route::post('testings/{testing}', 'CommentController@testing');

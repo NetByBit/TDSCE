@@ -17,8 +17,10 @@ class CreateCommentsTable extends Migration
             $table->bigIncrements('id');
             $table->text('text');
             $table->unsignedBigInteger('user_id');
-            $table->unsignedBigInteger('project_id');
+            $table->morphs('commentable');
             $table->timestamps();
+
+            $table->foreign('user_id')->references('id')->on('users');
         });
     }
 

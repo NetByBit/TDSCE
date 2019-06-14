@@ -16,7 +16,7 @@
                     </ul>
                 </div>
             @endif
-            <form class="text-center" method="POST" action="/projects">
+            <form class="text-center" method="POST" action="/testings">
                 @csrf
                 <div class="md-form">
                     <input type="text" name="name" id="materialRegisterFormName" class="form-control">

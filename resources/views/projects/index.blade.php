@@ -8,7 +8,7 @@
                 @foreach ($projectsRow as $project)
                     <div class="col-lg mb-lg-0 mb-4">
                         <div class="view overlay rounded z-depth-3 mb-4">
-                            <img class="img-fluid" src="{{ $project->image }}">
+                            <img class="img-fluid w-100" src="{{ $project->image }}">
                             <a>
                                 <div class="mask rgba-white-slight"></div>
                             </a>

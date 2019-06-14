@@ -3,10 +3,10 @@
 namespace App\Policies;
 
 use App\User;
-use App\Project;
+use App\Idea;
 use Illuminate\Auth\Access\HandlesAuthorization;
 
-class ProjectPolicy
+class IdeaPolicy
 {
     use HandlesAuthorization;
 
@@ -14,5 +14,4 @@ class ProjectPolicy
     {
         return auth()->check();
     }
-
 }
