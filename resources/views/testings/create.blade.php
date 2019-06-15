@@ -4,7 +4,7 @@
 <div class="container">
     <div class="card">
         <h5 class="card-header info-color white-text text-center py-4">
-            <strong>Create a project</strong>
+            <strong>Create a testing</strong>
         </h5>
         <div class="card-body px-lg-5 pt-0">
             @if ($errors->any())
