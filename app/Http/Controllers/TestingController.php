@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use App\Testing;
+use Illuminate\Validation\Rule;
 use Illuminate\Http\Request;
 
 class TestingController extends Controller
@@ -12,6 +13,15 @@ class TestingController extends Controller
     {
         $testings = Testing::with('user')->latest()->paginate(12);
         return view('testings.index', compact('testings'));
+    }
+
+    public function category($category)
+    {
+        $testings = Testing::with('user')
+            ->where('category', $category)
+            ->latest()
+            ->paginate(12);
+        return view('testings.index', compact('testings', 'category'));
     }
 
     public function create()
@@ -28,10 +38,15 @@ class TestingController extends Controller
         $validatedData = $request->validate([
             'name' => 'required|max:50',
             'url' => 'nullable|url',
-            'description' => 'required'
+            'category' => ['required', Rule::in(['functionality', 'usability', 'database', 'compatibility', 'performance'])],
+            'image' => 'nullable|image|mimes:jpeg,png,jpg,gif,svg',
+            'description' => 'required',
         ]);
+        if (array_key_exists('image', $validatedData)) {
+            $validatedData['image'] = '/storage/' . $validatedData['image']->store('images', 'public');
+        }
 
-        auth()->user()->testings()->create($validatedData);
+        $testing = auth()->user()->testings()->create($validatedData);
 
         return redirect('/testings');
     }

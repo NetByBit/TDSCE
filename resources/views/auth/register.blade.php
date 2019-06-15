@@ -42,7 +42,7 @@
                             <label for="type" class="col-md-4 col-form-label text-md-right">User Type</label>
 
                             <div class="col-md-6">
-                                <select class="form-control{{ $errors->has('type') ? ' is-invalid' : '' }}" id="type" name="type" required>
+                                <select class="form-control d-block {{ $errors->has('type') ? ' is-invalid' : '' }}" id="type" name="type" required>
                                     <option value="tester">Tester</option>
                                     <option value="developer">Developer</option>
                                 </select>

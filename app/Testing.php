@@ -11,6 +11,7 @@ class Testing extends Model
         'image',
         'description',
         'url',
+        'category',
     ];
 
     public function comments()

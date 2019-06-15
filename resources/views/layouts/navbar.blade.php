@@ -26,20 +26,20 @@
                                 <span class="sr-only">Toggle Dropdown</span>
                             </a>
                             <div class="dropdown-menu">
-                                    <a class="dropdown-item" href="/testings/functionality">
+                                    <a class="dropdown-item" href="/testings/category/functionality">
                                         Functionality Testing
                                     </a>
 
-                                    <a class="dropdown-item" href="/testings/usability">
+                                    <a class="dropdown-item" href="/testings/category/usability">
                                         Usability testing
                                     </a>
-                                    <a class="dropdown-item" href="/testings/database">
+                                    <a class="dropdown-item" href="/testings/category/database">
                                         Database Testing
                                     </a>
-                                    <a class="dropdown-item" href="/testings/compatibility">
+                                    <a class="dropdown-item" href="/testings/category/compatibility">
                                         Compatibility testing
                                     </a>
-                                    <a class="dropdown-item" href="/testings/performance">
+                                    <a class="dropdown-item" href="/testings/category/performance">
                                         Performance Testing
                                     </a>
                             </div>

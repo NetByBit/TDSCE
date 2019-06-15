@@ -19,7 +19,8 @@ class User extends Authenticatable
         'name',
         'email',
         'password',
-        'type'
+        'type',
+        'image',
     ];
 
     protected $hidden = [
@@ -43,11 +44,12 @@ class User extends Authenticatable
 
     public function testings()
     {
-        return $this->hasMany(Idea::class);
+        return $this->hasMany(Testing::class);
     }
 
-    public function getImageAttribute()
+    public function setEmailAttribute($value)
     {
-        return 'https://robohash.org/' .  $this->email .'?gravatar=yes';
+        $this->attributes['email'] = $value;
+        $this->attributes['image'] = 'https://robohash.org/' .  $this->email .'?gravatar=yes';
     }
 }

@@ -11,14 +11,15 @@
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+Route::view('/', 'welcome');
 
 Auth::routes();
 
 Route::resource('projects', 'ProjectController');
 Route::resource('ideas', 'IdeaController');
+
+Route::get('testings/category/{category}', 'TestingController@category');
+
 Route::resource('testings', 'TestingController');
 
 Route::post('projects/{project}', 'CommentController@project');

@@ -35,8 +35,6 @@ class IdeaController extends Controller
             $validatedData['image'] = '/storage/' . $validatedData['image']->store('images', 'public');
         }
 
-
-
         auth()->user()->ideas()->create($validatedData);
 
         return redirect('/ideas');

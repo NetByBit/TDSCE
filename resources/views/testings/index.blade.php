@@ -2,8 +2,13 @@
 
 @section('content')
     <div class="container">
-        <h2 class="text-center font-weight-bold mb-5">Latest testings</h2>
-        @foreach ($testings->chunk(3) as $testingsRow)
+        <h2 class="text-center font-weight-bold mb-5">
+        Latest testings
+        @if(isset($category))
+            ({{ $category }})
+        @endif
+        </h2>
+        @forelse ($testings->chunk(3) as $testingsRow)
             <div class="row mb-3">
                 @foreach ($testingsRow as $testing)
                     <div class="col-lg mb-lg-0 mb-4">
@@ -21,7 +26,9 @@
                     </div>
                 @endforeach
             </div>
-        @endforeach
+        @empty
+            <h3 class="text-center">You haven't added any projects yet, add one now and get it tested</h3>
+        @endforelse
         {{ $testings->links()}}
 
     </div>
